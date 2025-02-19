@@ -1,0 +1,24 @@
+$primary-color: #e9a2fe;
+$hover-color: #881fc6;
+$font-family: 'Arial, sans-serif';
+
+body {
+    font-family: $font-family;
+    background-color: #f8f9fa;
+    color: #343a40;
+    text-align: center;
+
+    h1 {
+        margin-top: 20px;
+    }
+
+    button {
+        background-color: $primary-color;
+        border: none;
+        color: white;
+
+        &:hover {
+            background-color: $hover-color;
+        }
+    }
+}

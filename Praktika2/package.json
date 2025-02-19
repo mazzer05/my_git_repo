@@ -1,0 +1,14 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "Простой проект с HTML, Sass и Node.js",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "sass": "sass styles.scss styles.css --watch"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "sass": "^1.32.0"
+    }
+  }
